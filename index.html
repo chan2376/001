@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Rubik+Iso&family=Tilt+Prism&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+    <script src="./main.js">
+    </script>
+</body>
+    <div id = 'pc' class="pc">
+        <body class="pcb">
+        <header class="pcH">
+             GAMES
+        </header>
+        <div id="pcpop" class="pcpop" onclick="document.querySelector('.pcpop').style.display = 'none';">
+            <div id='pcpoph'>
+            [ This is personal site ]
+            </div>
+            <br><br>
+            <div id="pcpopb">
+                Test pop-up
+                <br>
+                <p>
+                The flesh is basically yellow to light green [1],   
+                 and the taste differs from variety to variety. 
+                 See the apple varieties section below. In general, 
+                 the taste of apples in Korea refers to the texture of sweet and sour + crunchy, 
+                 elastic and hard flesh.
+                 <br><br><Br>
+                    팝업창 클릭해서 닫기
+                </p>
+            </div>
+        </div>
+        <div id="v">
+        <a href="" class="hl">
+            Playing
+        </a>
+        <a href="" class="hl">
+            Playing
+        </a>
+        <a href="" class="hl">
+            Playing
+        </a>
+        <a href="" class="hl">
+            Playing
+        </a>
+        <a href="" class="hl">
+            Playing
+        </a>
+       </div>
+       <br>
+       <br>
+       <div class="pcmain">
+        <h1 id="pmm">
+            Main div
+        </h1>
+        <details id="pmd">
+            <summary>
+                text
+            </summary>
+                <span>
+                    The flesh is basically yellow to light green [1],   
+                    and the taste differs from variety to variety. 
+                    See the apple varieties section below. In general, 
+                    the taste of apples in Korea refers to the texture of sweet and sour + crunchy, 
+                    elastic and hard flesh.
+                </span>
+        </details>
+        <br><br><br><br><br><br><br><br>
+        <details id="pmd">
+            <summary>
+                text
+            </summary>
+                <span>
+                    The flesh is basically yellow to light green [1],   
+                    and the taste differs from variety to variety. 
+                    See the apple varieties section below. In general, 
+                    the taste of apples in Korea refers to the texture of sweet and sour + crunchy, 
+                    elastic and hard flesh.
+                </span>
+        </details>
+       </div>
+        </body>
+    </div>
+    <div id = 'mob' class="mob">mob</div>
+    <script>
+        var ratio = window.devicePixelRatio;
+        if(ratio >= 2){
+        document.querySelector('.pc').style.display = 'none';
+        }
+        else{
+        document.querySelector('.mob').style.display = 'none';
+        }
+    </script>
+</body>
+</html>

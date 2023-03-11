@@ -1,0 +1,68 @@
+.pcH{
+    position: sticky;
+    height: 80px;
+    border-bottom: 0.5px solid rgb(201, 201, 201);
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 10px;
+    font-family: 'Tilt Prism', cursive;
+    color: rgb(255, 208, 0);    
+}
+html{
+    background-color: rgb(255, 255, 255);
+    transition: 2s;
+}
+.hl{
+    text-decoration: none;
+    color: rgb(255, 187, 0);
+    padding-left: 10px;
+    padding-right: 10px;
+    letter-spacing: 1px;
+    font-family: 'Rajdhani', sans-serif;
+}
+#v{
+    text-align: center;
+}
+#pcpop{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    top: 300px;
+    left: 100px;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(219, 186, 0);
+    font-family: 'Rajdhani', sans-serif;
+    transition: 0.3s;
+    z-index: +1;
+    animation: pop ;
+}
+#pcpop:hover{
+    width: 350px;
+    height: 450px;
+    box-shadow: 5px 5px 0 2px gray;
+    
+}
+#pcpoph{
+    padding-top: 30px;
+}
+.pcmain{
+    position: absolute;
+    padding-top: 40px;
+    left:30%;
+    width: 40%;
+    height: 750px;
+    border-radius: 30px;
+    color: goldenrod;
+    border: 3px solid gold;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+}
+#pmm{
+   font-size: 180%;
+}
+#pmd[open]{
+    transition: 0.3s;
+    color: cornflowerblue;
+}
